@@ -1,7 +1,7 @@
 :root {
-  --primary: #991b1b;
-  --primary-dark: #7f1d1d;
-  --primary-light: #b91c1c;
+  --primary: #7f1d1d;
+  --primary-dark: #5c1616;
+  --primary-light: #991b1b;
   --dark: #0f172a;
   --dark-2: #1e293b;
   --dark-3: #334155;
@@ -102,7 +102,7 @@ ul {
 .btn-primary:hover {
   background: var(--primary-dark);
   transform: translateY(-2px);
-  box-shadow: 0 4px 20px rgba(153, 27, 27, 0.3);
+  box-shadow: 0 4px 20px rgba(127, 29, 29, 0.35);
 }
 
 .btn-outline {
@@ -428,7 +428,7 @@ ul {
 .contact-details li span:first-child {
   width: 40px;
   height: 40px;
-  background: rgba(153, 27, 27, 0.15);
+  background: rgba(127, 29, 29, 0.2);
   border-radius: 0.5rem;
   display: flex;
   align-items: center;
