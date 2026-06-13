@@ -5,7 +5,7 @@
   --dark: #0f172a;
   --dark-2: #1e293b;
   --dark-3: #334155;
-  --gray: #64748b;
+  --gray: #475569;
   --gray-light: #e2e8f0;
   --gray-bg: #f1f5f9;
   --white: #ffffff;
@@ -143,32 +143,17 @@ ul {
 .logo {
   display: flex;
   align-items: center;
-  gap: 0.6rem;
-  font-weight: 800;
-  font-size: 1.25rem;
-  color: var(--dark-2);
   line-height: 1;
 }
 
-.logo-mark {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 36px;
-  height: 36px;
-  border-radius: 8px;
-  overflow: hidden;
-  flex-shrink: 0;
+.logo-img {
+  height: 42px;
+  width: auto;
+  display: block;
 }
 
-.logo-mark img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-
-.logo span {
-  color: var(--primary);
+.footer-logo .logo-img {
+  height: 50px;
 }
 
 .nav-links {

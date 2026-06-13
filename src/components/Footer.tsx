@@ -6,9 +6,8 @@ export default function Footer() {
       <div className="container">
         <div className="footer-grid">
           <div className="footer-brand">
-            <Link to="/" className="logo" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-              <img src="/logo.svg" alt="Trojan X Solutions" />
-              TROJAN <span>X</span>
+            <Link to="/" className="logo footer-logo" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+              <img src="/images/logo-2.png" alt="Trojan X Solutions" className="logo-img" />
             </Link>
             <p>
               We are committed to providing the highest level of customer service and support,
