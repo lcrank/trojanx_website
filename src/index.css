@@ -1,14 +1,15 @@
 :root {
-  --red: #ec2124;
-  --red-dark: #c41a1d;
-  --red-light: #ff3b3b;
-  --dark: #1a1a1a;
-  --dark-2: #242424;
-  --dark-3: #2d2d2d;
-  --gray: #6b7280;
-  --gray-light: #e5e7eb;
+  --primary: #991b1b;
+  --primary-dark: #7f1d1d;
+  --primary-light: #b91c1c;
+  --dark: #0f172a;
+  --dark-2: #1e293b;
+  --dark-3: #334155;
+  --gray: #64748b;
+  --gray-light: #e2e8f0;
+  --gray-bg: #f1f5f9;
   --white: #ffffff;
-  --off-white: #f9fafb;
+  --off-white: #f8fafc;
   --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
@@ -60,7 +61,7 @@ ul {
 }
 
 .section-title span {
-  color: var(--red);
+  color: var(--primary);
   font-weight: 600;
   font-size: 0.9rem;
   text-transform: uppercase;
@@ -94,14 +95,14 @@ ul {
 }
 
 .btn-primary {
-  background: var(--red);
+  background: var(--primary);
   color: var(--white);
 }
 
 .btn-primary:hover {
-  background: var(--red-dark);
+  background: var(--primary-dark);
   transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(236, 33, 36, 0.3);
+  box-shadow: 0 4px 20px rgba(153, 27, 27, 0.3);
 }
 
 .btn-outline {
@@ -142,18 +143,32 @@ ul {
 .logo {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
+  gap: 0.6rem;
   font-weight: 800;
   font-size: 1.25rem;
   color: var(--dark-2);
+  line-height: 1;
 }
 
-.logo img {
-  height: 40px;
+.logo-mark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.logo-mark img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .logo span {
-  color: var(--red);
+  color: var(--primary);
 }
 
 .nav-links {
@@ -170,7 +185,8 @@ ul {
 }
 
 .nav-links a:hover {
-  color: var(--red);
+  color: var(--primary);
+  font-weight: 500;
 }
 
 .mobile-toggle {
@@ -209,7 +225,8 @@ ul {
 }
 
 .hero-content h1 span {
-  color: var(--red);
+  color: var(--primary);
+  font-weight: 500;
 }
 
 .hero-content p {
@@ -263,14 +280,14 @@ ul {
 .service-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
-  border-color: var(--red);
+  border-color: var(--primary);
 }
 
 .service-icon {
   width: 64px;
   height: 64px;
   margin: 0 auto 1.5rem;
-  background: linear-gradient(135deg, var(--red), var(--red-dark));
+  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
   border-radius: 1rem;
   display: flex;
   align-items: center;
@@ -319,7 +336,7 @@ ul {
   left: -1rem;
   right: 1rem;
   bottom: 1rem;
-  border: 2px solid var(--red);
+  border: 2px solid var(--primary);
   border-radius: 1rem;
   z-index: -1;
 }
@@ -342,7 +359,7 @@ ul {
 .stat h3 {
   font-size: 2rem;
   font-weight: 800;
-  color: var(--red);
+  color: var(--primary);
 }
 
 .stat p {
@@ -369,7 +386,7 @@ ul {
 
 .about-features li::before {
   content: '✓';
-  color: var(--red);
+  color: var(--primary);
   font-weight: 700;
 }
 
@@ -380,7 +397,8 @@ ul {
 }
 
 .contact .section-title span {
-  color: var(--red);
+  color: var(--primary);
+  font-weight: 500;
 }
 
 .contact .section-title h2 {
@@ -425,7 +443,7 @@ ul {
 .contact-details li span:first-child {
   width: 40px;
   height: 40px;
-  background: rgba(236, 33, 36, 0.2);
+  background: rgba(153, 27, 27, 0.15);
   border-radius: 0.5rem;
   display: flex;
   align-items: center;
@@ -471,7 +489,7 @@ ul {
 .form-group textarea:focus,
 .form-group select:focus {
   outline: none;
-  border-color: var(--red);
+  border-color: var(--primary);
 }
 
 .form-group textarea {
@@ -542,7 +560,8 @@ ul {
 }
 
 .footer-links a:hover {
-  color: var(--red);
+  color: var(--primary);
+  font-weight: 500;
 }
 
 .footer-bottom {
@@ -553,7 +572,8 @@ ul {
 }
 
 .footer-bottom a {
-  color: var(--red);
+  color: var(--primary);
+  font-weight: 500;
 }
 
 /* Mobile Responsive */

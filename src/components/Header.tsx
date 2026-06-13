@@ -29,7 +29,9 @@ export default function Header() {
     <header className={`header${scrolled ? ' scrolled' : ''}`}>
       <div className="container">
         <Link to="/" className="logo" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-          <img src="/logo.svg" alt="Trojan X Solutions" />
+          <span className="logo-mark">
+            <img src="/logo.svg" alt="Trojan X Solutions" />
+          </span>
           TROJAN <span>X</span>
         </Link>
 
