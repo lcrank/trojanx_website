@@ -487,7 +487,7 @@ ul {
 }
 
 .form-error {
-  color: var(--red-light);
+  color: var(--primary-light);
   font-size: 0.8rem;
   margin-top: 0.25rem;
 }
